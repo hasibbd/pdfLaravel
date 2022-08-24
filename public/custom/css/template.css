@@ -1,0 +1,9 @@
+.custom-table{
+    width: 100%;
+}
+.custom-table tr td{
+    font-family: "Times New Roman", serif;
+}
+.bold{
+    font-weight: bold;
+}

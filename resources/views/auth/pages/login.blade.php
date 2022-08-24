@@ -42,6 +42,7 @@
                 <!-- /.col -->
                 <div class="col-4">
                     <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+                    <a class="btn btn-success" href="{{url('pdf')}}">PDF</a>
                 </div>
                 <!-- /.col -->
             </div>

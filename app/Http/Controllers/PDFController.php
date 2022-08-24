@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use PDF;
 
@@ -15,6 +16,15 @@ class PDFController extends Controller
     public function index()
     {
         //
+    }
+    public function templateOne(){
+     return view('admin.pages.template.one');
+    }
+    public function templateTwo(){
+        return view('admin.pages.template.two');
+    }
+    public function templateThree(){
+        return view('admin.pages.template.three');
     }
 
     /**
@@ -89,9 +99,9 @@ class PDFController extends Controller
             'title' => 'Welcome to ItSolutionStuff.com',
             'date' => date('m/d/Y')
         ];
-
+       /* return view('myPdf',compact('data'));*/
         $pdf = PDF::loadView('myPDF', $data);
 
-        return $pdf->download('itsolutionstuff.pdf');
+        return $pdf->download(strtotime(Carbon::now()).'.pdf');
     }
 }

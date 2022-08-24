@@ -24,6 +24,10 @@ Route::middleware(['admin'])->group(function () {
     Route::get('user-list', [ListController::class, 'index'])->name('user-list.index');
     Route::get('profile', [ProfileController::class, 'index'])->name('profile');
     Route::post('profile-info-change', [ProfileController::class, 'update']);
+
+    Route::get('template-one', [PDFController::class, 'templateOne']);
+    Route::get('template-two', [PDFController::class, 'templateTwo']);
+    Route::get('template-three', [PDFController::class, 'templateThree']);
 });
 Route::middleware(['user'])->group(function () {
 
