@@ -93,13 +93,14 @@ class PDFController extends Controller
         //
     }
 
-    public function generatePDF()
+    public function generatePDFOne(Request $request)
     {
-        $data = [
-            'title' => 'Welcome to ItSolutionStuff.com',
-            'date' => date('m/d/Y')
-        ];
-       /* return view('myPdf',compact('data'));*/
+        $data = [];
+        $r = $request->all();
+        $s = 1;
+        foreach (array_splice($r, 1, count($r)) as $key=>$t){
+            $data['t'.$s++] = $t;
+        }
         $pdf = PDF::loadView('myPDF', $data);
 
         return $pdf->download(strtotime(Carbon::now()).'.pdf');

@@ -32,7 +32,7 @@ Route::middleware(['admin'])->group(function () {
 Route::middleware(['user'])->group(function () {
 
 });
-Route::get('pdf', [PDFController::class, 'generatePDF']);
+Route::post('store-one', [PDFController::class, 'generatePDFOne']);
 
 Route::get('/', [AuthController::class, 'login'])->name('/');
 Route::get('registration', [AuthController::class, 'registration']);
