@@ -65,18 +65,49 @@
                                              <td colspan="4" class="text-center">a</td>
                                          </tr>
                                          <tr>
-                                             <td class="w-25 text-left">
-                                                 Meno a priezvisko  <br>
-                                                 Trvale bytom <br>
-                                                 Obec, PSČ <br>
-                                                 Dátum narodenia <br>
-                                                 rodné číslo <br>
-                                             </td>
-                                             <td colspan="3" class=w-75>
-                                                 <input name="t1" type="text"> <br>
-                                                 <input name="t2" type="text"> <br>
-                                                 <input name="t3" type="text"> <br>
-                                                 <input name="t4" type="text"> <br>
+                                             <td class="w-25 text-left" colspan="4">
+                                                 <table>
+                                                     <tr>
+                                                         <td>
+                                                             Meno a priezvisko
+                                                         </td>
+                                                         <td>
+                                                             <input name="text[]" type="text">
+                                                         </td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td>
+                                                             Trvale bytom
+                                                         </td>
+                                                         <td>
+                                                             <input name="text[]" type="text">
+                                                         </td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td>
+                                                             Obec, PSČ
+                                                         </td>
+                                                         <td>
+                                                             <input name="text[]" type="text">
+                                                         </td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td>
+                                                             Dátum narodenia
+                                                         </td>
+                                                         <td>
+                                                             <input name="text[]" type="text">
+                                                         </td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td>
+                                                             rodné číslo
+                                                         </td>
+                                                         <td>
+                                                             <input name="text[]" type="text">
+                                                         </td>
+                                                     </tr>
+                                                 </table>
                                              </td>
                                          </tr>
                                          <tr>
@@ -99,28 +130,80 @@
                                              <td colspan="4" class="text-center">a</td>
                                          </tr>
                                          <tr>
-                                             <td class="w-25 text-left">
-                                                 Meno a priezvisko  <br>
-                                                 Trvale bytom <br>
-                                                 Obec, PSČ <br>
-                                                 Dátum narodenia <br>
-                                                 rodné číslo <br>
-                                             </td>
-                                             <td >
-                                                 <input name="t5" type="text"> <br>
-                                                 <input name="t6" type="text"> <br>
-                                                 <input name="t7" type="text"> <br>
-                                                 <input name="t8" type="text"> <br>
+                                             <td class="w-50 text-left" colspan="2">
+                                                 <table>
+                                                     <tr>
+                                                         <td>
+                                                             Meno a priezvisko
+                                                         </td>
+                                                         <td>
+                                                             <input name="text[]" type="text">
+                                                         </td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td>
+                                                             Trvale bytom
+                                                         </td>
+                                                         <td>
+                                                             <input name="text[]" type="text">
+                                                         </td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td>
+                                                             Obec, PSČ
+                                                         </td>
+                                                         <td>
+                                                             <input name="text[]" type="text">
+                                                         </td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td>
+                                                             Dátum narodenia
+                                                         </td>
+                                                         <td>
+                                                             <input name="text[]" type="text">
+                                                         </td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td>
+                                                             rodné číslo
+                                                         </td>
+                                                         <td>
+                                                             <input name="text[]" type="text">
+                                                         </td>
+                                                     </tr>
+                                                 </table>
                                              </td>
 
-                                             <td class="text-left">
-                                                 <input name="t9" type="text"> <br>
-                                                 <input name="t10" type="text"> <br>
-                                                 <input name="t11" type="text"> <br>
-                                                 <input name="t12" type="text"> <br>
-                                             </td>
-                                             <td>
 
+                                             <td class="text-left" colspan="2">
+                                                 <table>
+                                                     <tr>
+                                                         <td>
+                                                             <input name="text[]" type="text">
+                                                         </td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td>
+                                                             <input name="text[]" type="text">
+                                                         </td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td>
+                                                             <input name="text[]" type="text">
+                                                         </td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td>
+                                                             <input name="text[]" type="text">
+                                                         </td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td>
+                                                             <input name="text[]" type="text">
+                                                         </td>
+                                                     </tr>
+                                                 </table>
                                              </td>
                                          </tr>
                                          <tr>
@@ -145,13 +228,13 @@
                                          <tr class="text-center">
                                              <td rowspan="2" style="width: 15%;">
                                                  Predmet<br>
-                                                 <input name="t13" style="width: 75%;" type="text">
+                                                 <input name="text[]" style="width: 75%;" type="text">
                                              </td>
                                              <td style="width: 10%;">s.č.</td>
                                              <td style="width: 15%;">Obec</td>
                                              <td style="width: 20%;">LV</td>
                                              <td style="width: 40%;">
-                                                 <select name="t14" id="">
+                                                 <select name="s[]" id="">
                                                      <option value="">Select</option>
                                                      <option value="Iné budovy s. č.">Iné budovy s. č.</option>
                                                      <option value="Iné">Iné</option>
@@ -160,19 +243,19 @@
                                          </tr>
                                          <tr class="text-center">
                                              <td>
-                                                 <input name="t15" style="width: 70%;" type="text">
+                                                 <input name="text[]" style="width: 70%;" type="text">
                                              </td>
                                              <td>
-                                                 <input name="t16" style="width: 70%;" type="text">
+                                                 <input name="text[]" style="width: 70%;" type="text">
                                              </td>
                                              <td>
-                                                 <input name="t17" style="width: 70%;" type="text">
+                                                 <input name="text[]" style="width: 70%;" type="text">
                                              </td>
                                              <td>
-                                                 <input name="t18" style="width: 50%;" type="text"> <br>
-                                                 Č. bytu:  <input  name="t19" style="width: 50%;" type="text"><br>
-                                                 Č. vchodu:  <input name="t20" style="width: 50%;" type="text"><br>
-                                                 Poschodie:  <input name="t21" style="width: 50%;" type="text"><br>
+                                                 <input name="text[]" style="width: 50%;" type="text"> <br>
+                                                 Č. bytu:  <input  name="text[]" style="width: 50%;" type="text"><br>
+                                                 Č. vchodu:  <input name="text[]" style="width: 50%;" type="text"><br>
+                                                 Poschodie:  <input name="text[]" style="width: 50%;" type="text"><br>
 
                                              </td>
                                          </tr>
@@ -184,15 +267,15 @@
                                              </td>
                                              <td  rowspan="2" colspan="3" class="text-left">
                                                  Pozemok:  <br>
-                                                 <input  name="t22" type="text"> <br>
-                                                 <input  name="t23" type="text"> <br>
-                                                 <input name="t24" type="text"> <br>
-                                                 <input name="t25" type="text"> <br>
-                                                 <input name="t26" type="text"> <br>
-                                                 <input name="t27" type="text"> <br>
+                                                 <input  name="text[]" type="text"> <br>
+                                                 <input  name="text[]" type="text"> <br>
+                                                 <input name="text[]" type="text"> <br>
+                                                 <input name="text[]" type="text"> <br>
+                                                 <input name="text[]" type="text"> <br>
+                                                 <input name="text[]" type="text"> <br>
 
-                                                 LV:  <input name="t28" type="text"> <br>
-                                                 Spoluvlastnícky podiel na pozemku: <input name="t29" type="text">
+                                                 LV:  <input name="text[]" type="text"> <br>
+                                                 Spoluvlastnícky podiel na pozemku: <input name="text[]" type="text">
 
                                              </td>
                                              <td>
@@ -202,7 +285,7 @@
                                          </tr>
                                          <tr class="text-center">
                                              <td>
-                                                 <input name="t30" type="text">
+                                                 <input name="text[]" type="text">
 
                                              </td>
                                          </tr>
@@ -236,7 +319,7 @@
                                                  1
                                              </td>
                                              <td style="width: 95%;">
-                                                 Kupujúci (záujemca) a budúci predávajúci sa dohodli na kúpnej cene vo výške  <input  name="t31" type="text">,- € (slovom:  <input name="t32"  type="text"> EUR)
+                                                 Kupujúci (záujemca) a budúci predávajúci sa dohodli na kúpnej cene vo výške  <input  name="text[]" type="text">,- € (slovom:  <input name="text[]"  type="text"> EUR)
                                              </td>
                                          </tr>
                                          <tr>
@@ -244,7 +327,7 @@
                                                  2
                                              </td>
                                              <td style="width: 95%;">
-                                                 Finančná odmena sprotredkovateľa <input  name="t33"  type="text">,- € (slovom: <input  name="t34"  type="text"> EUR), ktorá je súčasťou kúpnej ceny.
+                                                 Finančná odmena sprotredkovateľa <input  name="text[]"  type="text">,- € (slovom: <input  name="text[]"  type="text"> EUR), ktorá je súčasťou kúpnej ceny.
                                              </td>
                                          </tr>
                                          <tr>
@@ -253,7 +336,7 @@
                                              </td>
                                              <td style="width: 95%;">
                                                  Záujemca uhradí kúpnu cenu
-                                                 <select name="t35" id="">
+                                                 <select name="s[]" id="">
                                                      <option value="">Select</option>
                                                      <option value="z časti vlastných úspor a z časti bankového úveru">z časti vlastných úspor a z časti bankového úveru</option>
                                                      <option value="z vlastných úspor">z vlastných úspor</option>
@@ -266,7 +349,7 @@
                                                  4
                                              </td>
                                              <td style="width: 95%;">
-                                                 Kúpna cena bude zo strany záujemcu vyplatená najneskôr dňa<input name="t36"  type="text">
+                                                 Kúpna cena bude zo strany záujemcu vyplatená najneskôr dňa<input name="text[]"  type="text">
                                              </td>
                                          </tr>
                                      </table>
@@ -279,9 +362,9 @@
                                                  5
                                              </td>
                                              <td style="width: 95%;">
-                                                 Záujemca o kúpu (budúci kupujúci) ako prejav svojej vážnej vôle kúpiť nehnuteľnosti  zaplatil v deň podpisu tejto zmluvy finančnú sumu<input  name="t37"  type="text">
-                                                 €, (slovom: <input name="t38"  type="text"> EUR),
-                                                 <select name="t39" id="" style="width: 50%">
+                                                 Záujemca o kúpu (budúci kupujúci) ako prejav svojej vážnej vôle kúpiť nehnuteľnosti  zaplatil v deň podpisu tejto zmluvy finančnú sumu<input  name="text[]"  type="text">
+                                                 €, (slovom: <input name="text[]"  type="text"> EUR),
+                                                 <select name="s[]" id="" style="width: 50%">
                                                      <option value="">Select</option>
                                                      <option value="v hotovosti">v hotovosti</option>
                                                      <option value="prevodom na účet č. IBAN: SK83 7500 0000 0040 2960 0876 ">prevodom na účet č. IBAN: SK83 7500 0000 0040 2960 0876 </option>
@@ -295,7 +378,7 @@
                                                  6
                                              </td>
                                              <td style="width: 95%;">
-                                                 Záujemca o kúpu (budúci kupujúci) ako prejav svojej vážnej vôle kúpiť nehnuteľnosti  zaplatili v deň podpisu tejto zmluvy finančnú sumu <input name="t40"  type="text"> €, (slovom: <input name="t41"  type="text"> EUR),  v hotovosti / prevodom na účet č. IBAN: SK<input name="t42"  type="text"> pre predávajúcich v zmysle §50 Občianskeho zákonníka dohodou medzi Predávajúcimi a Záujemcom pre rezerváciu nehnuteľností vo svoj prospech, ktorá bude taktiež započítaná do kúpnej ceny.
+                                                 Záujemca o kúpu (budúci kupujúci) ako prejav svojej vážnej vôle kúpiť nehnuteľnosti  zaplatili v deň podpisu tejto zmluvy finančnú sumu <input name="text[]"  type="text"> €, (slovom: <input name="text[]"  type="text"> EUR),  v hotovosti / prevodom na účet č. IBAN: SK<input name="text[]"  type="text"> pre predávajúcich v zmysle §50 Občianskeho zákonníka dohodou medzi Predávajúcimi a Záujemcom pre rezerváciu nehnuteľností vo svoj prospech, ktorá bude taktiež započítaná do kúpnej ceny.
                                              </td>
                                          </tr>
                                          <tr>
@@ -331,12 +414,12 @@
                                              </td>
                                              <td style="width: 95%;">
                                                  Budúci predávajúci vyhlasujú, že Nehnuteľnosti
-                                                 <select name="t43" id="">
+                                                 <select name="s[]" id="">
                                                      <option value="">Select</option>
                                                      <option value="nie sú zaťažené žiadnou ťarchou">nie sú zaťažené žiadnou ťarchou</option>
                                                      <option value="sú zaťažené s jednou ťarchou, ktorá bude vysporiadaná formou vyčíslenia">sú zaťažené s jednou ťarchou, ktorá bude vysporiadaná formou vyčíslenia</option>
                                                      <option value="sú zaťažené s ťarchou a to">sú zaťažené s ťarchou a to</option>
-                                                 </select>:<input name="t44" type="text">Pokiaľ by existovali iné budú vysporiadané  pred uzatvorením kúpnej zmluvy.
+                                                 </select>:<input name="text[]" type="text">Pokiaľ by existovali iné budú vysporiadané  pred uzatvorením kúpnej zmluvy.
                                              </td>
                                          </tr>
                                          <tr>
@@ -387,7 +470,7 @@
                                                  2
                                              </td>
                                              <td style="width: 95%;">
-                                                 Zmluvné strany budúci predávajúci a záujemcovia - kupujúci uzatvárajú túto zmluvu s tým, že do <input name="t45" type="text"> sa zaväzujú uzatvoriť kúpnu zmluvu (zmluvu o prevode vlastníckeho práva), a to aj bez výzvy ktorejkoľvek zmluvnej strany. Ak by došlo k nečinnosti zmluvných strán kúpnej zmluvy je povinná ktorákoľvek zmluvná strana vyzvať účastníka na podpis kúpnej zmluvy.
+                                                 Zmluvné strany budúci predávajúci a záujemcovia - kupujúci uzatvárajú túto zmluvu s tým, že do <input name="text[]" type="text"> sa zaväzujú uzatvoriť kúpnu zmluvu (zmluvu o prevode vlastníckeho práva), a to aj bez výzvy ktorejkoľvek zmluvnej strany. Ak by došlo k nečinnosti zmluvných strán kúpnej zmluvy je povinná ktorákoľvek zmluvná strana vyzvať účastníka na podpis kúpnej zmluvy.
                                              </td>
                                          </tr>
                                      </table>
@@ -423,7 +506,7 @@
                                                  4
                                              </td>
                                              <td style="width: 95%;">
-                                                 V prípade, ak Budúci predávajúci odstúpia od tejto zmluvy alebo neuzatvoria v lehote tu uvedenej Kúpnu zmluvu, prináleží Sprostredkovateľovi od Budúcich predávajúcich náhrada vo výške <input name="t46" type="text">,- € ( slovom: <input name="t47" type="text"> eur). Táto náhrada bude splatná 14 dní po vystavení faktúry Sprostredkovateľom.
+                                                 V prípade, ak Budúci predávajúci odstúpia od tejto zmluvy alebo neuzatvoria v lehote tu uvedenej Kúpnu zmluvu, prináleží Sprostredkovateľovi od Budúcich predávajúcich náhrada vo výške <input name="text[]" type="text">,- € ( slovom: <input name="text[]" type="text"> eur). Táto náhrada bude splatná 14 dní po vystavení faktúry Sprostredkovateľom.
                                              </td>
                                          </tr>
                                          <tr>
@@ -458,7 +541,7 @@
                                                  <span class="pr-3">d)</span>	ak Budúci kupujúci odmietne podpísať kúpnu zmluvu z dôvodu, že nezískal finančné prostriedky na vyplatenie kúpnej ceny,
                                                  <br>
                                                  <span class="pr-3">e)</span>	ak Budúci kupujúci ani po výzve Budúcich predávajúcich na uzatvorenie Kúpnej zmluvy v náhradnej lehote 14 dní  nepristúpi k podpisu Kúpnej zmluvy,
-                                                 je povinná zmluvná strana, ktorá porušila niektorú tu uvedenú povinnosť zaplatiť druhej zmluvnej strane Zmluvnú pokutu vo výške <input name="t48" type="text">,- € (slovom <input name="t49" type="text"> EUR). Uvedenou zmluvnou pokutou je zabezpečená povinnosť uzatvoriť Kúpnu zmluvu, a zmluvnou pokutou sú zabezpečené pre prípad  neuzatvorenia Kúpnej zmluvy zo strany zmluvných strán pre subjektívne dôvody na ich strane uvedené v bode a) až e).  Zmluvná pokuta je splatná do 14 dní, od doručenia výzvy na jej úhradu druhou zmluvnou stranou. V prípade, ak bude Záujemca povinný zaplatiť vyššie uvedenú zmluvnú pokutu v zmysle tohto bodu, bude táto započítaná so zloženou časťou kúpnej ceny uvedenou v bode 7. čl. II. tejto zmluvy.
+                                                 je povinná zmluvná strana, ktorá porušila niektorú tu uvedenú povinnosť zaplatiť druhej zmluvnej strane Zmluvnú pokutu vo výške <input name="text[]" type="text">,- € (slovom <input name="text[]" type="text"> EUR). Uvedenou zmluvnou pokutou je zabezpečená povinnosť uzatvoriť Kúpnu zmluvu, a zmluvnou pokutou sú zabezpečené pre prípad  neuzatvorenia Kúpnej zmluvy zo strany zmluvných strán pre subjektívne dôvody na ich strane uvedené v bode a) až e).  Zmluvná pokuta je splatná do 14 dní, od doručenia výzvy na jej úhradu druhou zmluvnou stranou. V prípade, ak bude Záujemca povinný zaplatiť vyššie uvedenú zmluvnú pokutu v zmysle tohto bodu, bude táto započítaná so zloženou časťou kúpnej ceny uvedenou v bode 7. čl. II. tejto zmluvy.
 
                                              </td>
                                          </tr>
@@ -483,7 +566,7 @@
                                                  10
                                              </td>
                                              <td style="width: 95%;">
-                                                 Zmluvné strany vyhlasujú, že zmluva bola spísaná podľa ich skutočnej a slobodnej vôle, zmluvné strany mali možnosť zoznámiť sa vopred so zmluvou a zmluvnými podmienkami, tieto si prečítali, s jej obsahom súhlasia, čo potvrdzujú vlastnoručnými podpismi. Zmluva je spísaná v <input name="t50" type="text"> vyhotoveniach, pričom každá zo zmluvných strán obdržala jedno vyhotovenie pri podpise.
+                                                 Zmluvné strany vyhlasujú, že zmluva bola spísaná podľa ich skutočnej a slobodnej vôle, zmluvné strany mali možnosť zoznámiť sa vopred so zmluvou a zmluvnými podmienkami, tieto si prečítali, s jej obsahom súhlasia, čo potvrdzujú vlastnoručnými podpismi. Zmluva je spísaná v <input name="text[]" type="text"> vyhotoveniach, pričom každá zo zmluvných strán obdržala jedno vyhotovenie pri podpise.
                                              </td>
                                          </tr>
                                          <tr>
@@ -497,7 +580,7 @@
                                      </table>
                                      <br>
                                      <br>
-                                     <div class="text-center"><span>V Dunajskej Strede, dňa  <input name="t51" type="text"> (nepovinné)</span></div>
+                                     <div class="text-center"><span>V Dunajskej Strede, dňa  <input name="text[]" type="text"> (nepovinné)</span></div>
                                      <br>
                                      <br>
                                      <div class="row">

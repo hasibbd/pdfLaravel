@@ -98,10 +98,46 @@ class PDFController extends Controller
         $data = [];
         $r = $request->all();
         $s = 1;
-        foreach (array_splice($r, 1, count($r)) as $key=>$t){
+        foreach ($r['text'] as $key=>$t){
             $data['t'.$s++] = $t;
         }
+        $s = 1;
+        foreach ($r['s'] as $key=>$t){
+            $data['s'.$s++] = $t;
+        }
         $pdf = PDF::loadView('myPDF', $data);
+
+        return $pdf->download(strtotime(Carbon::now()).'.pdf');
+    }
+    public function generatePDFTwo(Request $request)
+    {
+        $data = [];
+        $r = $request->all();
+        $s = 1;
+        foreach ($r['text'] as $key=>$t){
+            $data['t'.$s++] = $t;
+        }
+        $s = 1;
+        foreach ($r['s'] as $key=>$t){
+            $data['s'.$s++] = $t;
+        }
+        $pdf = PDF::loadView('myPDF2', $data);
+
+        return $pdf->download(strtotime(Carbon::now()).'.pdf');
+    }
+    public function generatePDFThree(Request $request)
+    {
+        $data = [];
+        $r = $request->all();
+        $s = 1;
+        foreach ($r['text'] as $key=>$t){
+            $data['t'.$s++] = $t;
+        }
+        $s = 1;
+        foreach ($r['s'] as $key=>$t){
+            $data['s'.$s++] = $t;
+        }
+        $pdf = PDF::loadView('myPDF3', $data);
 
         return $pdf->download(strtotime(Carbon::now()).'.pdf');
     }

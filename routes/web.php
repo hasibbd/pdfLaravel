@@ -33,6 +33,8 @@ Route::middleware(['user'])->group(function () {
 
 });
 Route::post('store-one', [PDFController::class, 'generatePDFOne']);
+Route::post('store-two', [PDFController::class, 'generatePDFTwo']);
+Route::post('store-three', [PDFController::class, 'generatePDFThree']);
 
 Route::get('/', [AuthController::class, 'login'])->name('/');
 Route::get('registration', [AuthController::class, 'registration']);
