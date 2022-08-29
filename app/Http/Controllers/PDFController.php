@@ -105,6 +105,8 @@ class PDFController extends Controller
         foreach ($r['s'] as $key=>$t){
             $data['s'.$s++] = $t;
         }
+      // dd($data);
+
         $pdf = PDF::loadView('myPDF', $data);
 
         return $pdf->download(strtotime(Carbon::now()).'.pdf');
@@ -121,6 +123,7 @@ class PDFController extends Controller
         foreach ($r['s'] as $key=>$t){
             $data['s'.$s++] = $t;
         }
+
         $pdf = PDF::loadView('myPDF2', $data);
 
         return $pdf->download(strtotime(Carbon::now()).'.pdf');

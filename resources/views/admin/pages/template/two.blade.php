@@ -299,7 +299,7 @@
                                                         1
                                                     </td>
                                                     <td style="width: 95%;">
-                                                        Predmetom tejto zmluvy je úprava práv a povinností zmluvných strán v súvislosti so sprostredkovateľskou realitnou činnosťou v zmysle § 774 a nasl. Občianskeho zákonníka v prospech vlastníkov nehnuteľností ako predávajúcich, súvisiace s prevodom  vlastníckeho práva;  s priamou príkaznou činnosťou sprostredkovateľa v prospech záujemcu v zmysle § 724 a nasl. Občianskeho zákonníka,  t.j. splnenie  príkazu záujemcu na kúpu  a pre  rezervovanie nehnuteľností, ktoré sú predmetom tejto zmluvy; a to všetko  k nehnuteľnostiam  uvedeným v tejto zmluve na zabezpečenie právnych úkonov smerujúcich k prevodu vlastníctva nehnuteľností vo vlastníctve  budúcich predávajúcich na dobu do uzavretia kúpnej zmluvy medzi záujemcom ako budúcim kupujúcim a predávajúcimi za účasti sprostredkovateľa.
+                                                        Predmetom tejto zmluvy je úprava práv a povinností zmluvných strán v súvislosti so sprostredkovateľskou realitnou činnosťou v zmysle § 774 a nasl. Občianskeho zákonníka v prospech <input name="text[]" type="text"> nehnuteľností ako <input name="text[]" type="text">, súvisiace s prevodom  vlastníckeho práva;  s priamou príkaznou činnosťou sprostredkovateľa v prospech <input name="text[]" type="text"> v zmysle § 724 a nasl. Občianskeho zákonníka,  t.j. splnenie  príkazu záujemcu na kúpu  a pre  rezervovanie nehnuteľností, ktoré sú predmetom tejto zmluvy; a to všetko  k nehnuteľnostiam  uvedeným v tejto zmluve na zabezpečenie právnych úkonov smerujúcich k prevodu vlastníctva nehnuteľností vo vlastníctve  budúcich predávajúcich na dobu do uzavretia kúpnej zmluvy medzi záujemcom ako budúcim kupujúcim a predávajúcimi za účasti sprostredkovateľa.
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -365,10 +365,10 @@
                                                     <td style="width: 95%;">
                                                         Záujemca o kúpu (budúci kupujúci) ako prejav svojej vážnej vôle kúpiť nehnuteľnosti  zaplatil v deň podpisu tejto zmluvy finančnú sumu<input  name="text[]"  type="text">
                                                         €, (slovom: <input name="text[]"  type="text"> EUR),
-                                                        <select name="s[]" id="" style="width: 50%">
-                                                            <option value="">Select</option>
+                                                        <select name="s[]" id="">
+                                                            <option value="">select</option>
                                                             <option value="v hotovosti">v hotovosti</option>
-                                                            <option value="prevodom na účet č. IBAN: SK83 7500 0000 0040 2960 0876 ">prevodom na účet č. IBAN: SK83 7500 0000 0040 2960 0876 </option>
+                                                            <option value="prevodom na účet č. IBAN: SK83 7500 0000 0040 2960 0876">prevodom na účet č. IBAN: SK83 7500 0000 0040 2960 0876</option>
                                                         </select>
                                                         pre sprostredkovateľa v zmysle §50 Občianskeho zákonníka dohodou medzi Sprotstredkovateľom a Záujemcom pre rezerváciu nehnuteľností vo svoj prospech, ktorá bude započítaná do kúpnej ceny.
 
@@ -515,7 +515,7 @@
                                                         5
                                                     </td>
                                                     <td style="width: 95%;">
-                                                        V prípade, ak Budúci kupujúci odstúpi od tejto zmluvy alebo neuzatvori Kúpnu zmluvu v lehote uvedenej v tejto zmluve,  prináleží Sprostredkovateľovi od Budúceho kupujúceho  náhrada vo výške <input type="text">,- € ( slovom: <input type="text"> eur).
+                                                        V prípade, ak Budúci kupujúci odstúpi od tejto zmluvy alebo neuzatvori Kúpnu zmluvu v lehote uvedenej v tejto zmluve,  prináleží Sprostredkovateľovi od Budúceho kupujúceho  náhrada vo výške <input name="text[]" type="text">,- € ( slovom: <input name="text[]" type="text"> eur).
                                                     </td>
                                                 </tr>
                                                 <tr>

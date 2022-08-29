@@ -514,7 +514,7 @@
                                                  5
                                              </td>
                                              <td style="width: 95%;">
-                                                 V prípade, ak Budúci kupujúci odstúpi od tejto zmluvy alebo neuzatvori Kúpnu zmluvu v lehote uvedenej v tejto zmluve,  prináleží Sprostredkovateľovi od Budúceho kupujúceho  náhrada vo výške <input type="text">,- € ( slovom: <input type="text"> eur).
+                                                 V prípade, ak Budúci kupujúci odstúpi od tejto zmluvy alebo neuzatvori Kúpnu zmluvu v lehote uvedenej v tejto zmluve,  prináleží Sprostredkovateľovi od Budúceho kupujúceho  náhrada vo výške <input name="text[]" type="text">,- € ( slovom: <input name="text[]" type="text"> eur).
                                              </td>
                                          </tr>
                                          <tr>

@@ -25,9 +25,9 @@ Route::middleware(['admin'])->group(function () {
     Route::get('profile', [ProfileController::class, 'index'])->name('profile');
     Route::post('profile-info-change', [ProfileController::class, 'update']);
 
-    Route::get('template-one', [PDFController::class, 'templateOne']);
-    Route::get('template-two', [PDFController::class, 'templateTwo']);
-    Route::get('template-three', [PDFController::class, 'templateThree']);
+    Route::get('template-one', [PDFController::class, 'templateOne'])->name('template-one');
+    Route::get('template-two', [PDFController::class, 'templateTwo'])->name('template-two');
+    Route::get('template-three', [PDFController::class, 'templateThree'])->name('template-three');
 });
 Route::middleware(['user'])->group(function () {
 

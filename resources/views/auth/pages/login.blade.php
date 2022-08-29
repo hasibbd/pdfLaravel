@@ -42,7 +42,6 @@
                 <!-- /.col -->
                 <div class="col-4">
                     <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-                    <a class="btn btn-success" href="{{url('pdf')}}">PDF</a>
                 </div>
                 <!-- /.col -->
             </div>
@@ -50,9 +49,6 @@
 
         <p class="mb-1">
             <a href="{{url('forgot')}}">I forgot my password</a>
-        </p>
-        <p class="mb-0">
-            <a href="{{url('registration')}}" class="text-center">Register a new membership</a>
         </p>
     </div>
     <!-- /.card-body -->
